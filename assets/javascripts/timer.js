@@ -168,7 +168,7 @@
 			funcs.init = function()
 			{
 				var tpl = $(
-					'<span class="timerlog-timer"> <button class="timerlog-timer-button"></button>' + ' <em class="timerlog-timer-text"><small><span></span></small></em></span>'
+					'<span class="timerlog-timer"> <button type="button" class="timerlog-timer-button"></button>' + ' <em class="timerlog-timer-text"><small><span></span></small></em></span>'
 				);
 				button = tpl.find('button');
 				text = tpl.find('em span');
